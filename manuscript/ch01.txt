@@ -1,3 +1,42 @@
-# Contoh Bab
+# Mengenai Buku Ini
 
-Sekedar contoh
+## Rilis dan Versi
+
+Buku ini dirilis sesuai dengan ketentuan dan batasan pada buku ini. Silakan
+baca sub bab dimaksud yang juga terdapat pada bab ini.
+
+Versi yang Anda miliki ini adalah versi X.X yang dirilis pada XX XXXXX 201X.
+
+## Tujuan Penyusunan Buku
+
+Buku ini disusun dalam rangka kegiatan dokumentasi penerapan platform analisis.
+Dengan penyusunan dokumen ini diharapkan pengetahuan akan pengembangan dan
+penerapan platform analisis dapat terdistribusi dan terdokumentasi dengan baik.
+
+## Latar Belakang
+
+### Media Bertukar Pendapat
+
+Buku ini disusun dan dirilis ditujukan untuk didistribusikan ke semua kalangan
+dengan tak terbatas. Sehingga siapa pun yang mendapatkan buku ini dapat
+memberikan umpan balik. Dengan umpan balik yang diberikan hendaknya mampu
+membantu pengembangan platform analisis.
+
+### Pengembangan Platform Analisis yang Berkelanjutan
+
+Pada dasarnya apa yang terdokumentasi di sini adalah platform yang dikembangkan
+dan digunakan oleh kami. Dengan penyusunan buku ini kiranya penerapan yang kami
+kembangkan dapat pula dierapkan oleh siapa pun.
+
+## Ketentuan dan Batasan
+
+Buku ini disusun sebagai dokumentasi pengembangan platform analisis yang kami
+terapkan. Kondisi yang terdokumentasi pada buku ini kemungkinan besar tidak
+sama dengan kondisi saat buku ini dibaca, mengingat pengembangan yang kami
+lakukan berbasis riset dan berkelanjutan.
+
+## Pertanyaan dan Informasi Lebih Lanjut
+
+Buku ini disusun dan dipublikasikan hanya melalui leanpub. Silakan memberikan
+komentar atau bila ingin jalur pribadi bisa melalui surat elektronik
+[pengelola.b2b@gmail.com](pengelola.b2b@gmail.com).
