@@ -1,0 +1,81 @@
+# Perangkat Lunak dalam Platform Analisis
+
+Dalam penerapan dan perkembangannya perangkat analisis tidak dapat berdiri
+sendiri. Masih ada banyak perangkat pendukung yang menjadi bagian penting dalam
+lancarnya alur analisis. Oleh sebab itu akan di kelompokkkan beberapa jenis
+perangkat lunak berdasarkan kelompok fungsinya. Pada bab ini akan dijelaskan
+secara singkat mengenai setiap perangkat sebagai pengenalan.
+
+## Perangkat Analisis
+
+Bagian pertama dan utama dari perangkat analisis tentu saja perangkat analisis.
+Berikut basis pengembangan yang bisa digunakan untuk membangun platform
+analisis.
+
+### Basis Pengembangan R
+
+[R](https://www.r-project.org/about.html) adalah bahasa pemrograman dan
+lingkungan pengembangan yang ditujukan untuk komputasi statistik dan
+visualisasi data. R adalah bahasa pemrogramanan yang merupakan proyek GNU yang
+mirip dengan bahasa pemrograman S yang dikembangkan oleh Bell Laboratories
+( AT&T / Lucent Technologies ). Dengan kata lain, R adalah implementasi lain
+dari S. Ada bebrapa perbedaan penting, namun sebagian besar kode yang berjalan
+di S dapat berjalan di R tanpa pengubahan apa pun. Salah satu kekuatan R adalah
+kemudahan dalam produksi dokumen publikasi yang terstruktur, termasuk didalamnya
+simbol matematika dan formula yang dibutuhkan.
+
+R tersedia secara bebas dan merdeka dibawah naungan lisensi __GNU General
+Public License__ dari __Free Software Foundation__ dalam distribusi kode
+sumber. R dapat di kompilasi dan berjalan di atas banyak platform sistem
+operasi, yaitu : _Unix-like_ (BSD dan Linux), Windows dan MacOS.
+
+### Perangkat Analisis Lain
+
+Pada dasarnya pengembangan perangkat analisis akan difokuskan kepada bahasa
+pemrograman R untuk memudahkan pengembangan, namun tidak menutup kemungkinan
+adanya perangkat lain yang bisa digunakan yang dapat berinteraksi langusng
+dengan R atau dapat memudahkan dalam melakukan eksplorasi data. Pada umumnya
+perangkat yang beredar hanya memiliki fungsi tertentu.
+
+Contoh aplikasi yang digunakan adalah :
+* Gephi
+  Merupakan perangkat analisis dan visualisasi untuk SNA (Analisis Jejaring
+  Sosial / _Social Networks Analysis_).
+* OpenOffice/LibreOffice Calc
+  Merupakan perangkat pengolahan data dan visualisasi _spreadsheet_. Merupakan
+  versi bebas dari Microsoft Excel.
+
+## Basis Data
+
+Selain perangkat analisis diperlukan juga perngkat manajemen basis data sebagai
+media penyimpanan dan pengolahan data. Beberapa akan dibahas :
+
+### Format Teks
+
+### MySQL / MariaDB
+
+### MongoDB
+
+### Ekosistem Hadoop
+
+## Dokumentasi
+
+Perangkat lain yang tidak kalah penting adalah perangkat lunak yang berfungsi
+sebagai media dokumentasi. Baik sebagai referensi, dokumentasi pengembangan
+maupun media publikasi.
+
+### MediaWiki
+
+### Wordpress
+
+### Trac
+
+### Git-Web
+
+## Perangkat Lain
+
+### Layanan Web
+
+### Penjadwalan
+
+### Integrasi Berkelanjutan 
