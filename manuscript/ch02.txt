@@ -33,3 +33,29 @@ disediakan oleh vendor atau pengembang perangkat lunak. Perangkat uji coba ini
 digunakan sebagai acuan tidak baku arah pengembangan. Acuan bakunya adalah
 fungsi jenis perangkat.
 
+## Perangkat Lunak Merdeka
+
+Dari berbagai kandidat di atas, kami lebih mengarahkan pengembangan pada
+perangkat lunak merdeka atau yang lebih dikenal sebagai _Free Software_.
+Definisi utama yang membedakan perangkat lunak merdeka dengan perangkat lunak
+lain adalah batasan pada lisensi yang mewajibkan pengembang untuk membuka
+seluas-luasnya akses terhadap kode sumber perangkat. Selain itu keterbukaan pada
+kontribusi pengguna dalam bentuk apapun baik itu penambahan fitur, penambalan
+kode, bahkan dokumentasi. Penyusunan buku ini juga merupakan sebuah kontribusi
+yang bisa kami lakukan dalam pengembangan.
+
+Banyak lisensi yang digunakan oleh pengembang perangkat lunak merdeka, beberapa
+lisensi yang banyak diadopsi adalah :
+* [GNU GPL](http://www.gnu.org/licenses/agpl.html),
+  [GNU AGPL](http://gnu.org/licenses/gpl.html), dan
+  [GNU LGPL](https://www.gnu.org/copyleft/lesser.html) dari
+  [__Free Software Foundation__](https://www.fsf.org/);
+* [Apache License](https://www.apache.org/licenses/) dari
+  [__Apache Software Foundation__](https://www.apache.org/);
+* [BSD](https://www.gnu.org/licenses/license-list.html#OriginalBSD).
+Ketiganya merupakan lisensi yang biasa dipakai dalam perangkat lunak merdeka.
+Namun dalam pengembangan masih banyak lisensi lain yang bisa digunakan, Debian
+membuat [daftar lisensi](https://www.gnu.org/licenses/license-list.html)
+perangkat lunak yang ada di dalam daftar mereka.
+
+
