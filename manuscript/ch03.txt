@@ -133,16 +133,69 @@ diimplementasikan hanya dengan 1 (satu) perangkat.
 
 ## Perangkat Lain
 
-Mengenai perangkat ini tidak
+Mengenai perangkat yang tercakup dalam sub bab ini pada dasarnya bukan merupakan
+perangkat lunak dasar dalam pengembangan perangkat lunak analisis data. Namun
+dalam pengembangan perangkat lunak analisis data perangkat ini dapat digunakan
+sebagai penunjang dalam penerapan perangkat analisis, sehingga dalam platform
+analisis keberadaannya perlu dipelajari untuk menunjang penerapannya.
 
 ### Layanan Web
 
+Menurut [wikipedia](https://id.wikipedia.org/wiki/Server_web), perangkat layanan
+web merupakan perangkat yang menyediakan layanan akses kepada pengguna melalui
+protokol komunikasi HTTP atau HTTPS atas berkas-berkas yang terdapat pada suatu
+situs web dalam layanan ke pengguna dengan menggunakan aplikasi tertentu seperti
+peramban web (_browser_).
 
+Beberapa perangkat lunak yang tercakup dalam perangkat layanan web adalah:
+
+* [Apache](http://httpd.apache.org/);
+* [Nginx](http://www.nginx.org/)
+
+Masih ada beberapa perangkat lunak lain yang masuk dalam jenis perangkat ini.
+Namun dari [laporan w3tech](https://w3techs.com/technologies/cross/web_server/ranking),
+kedua perangkat di atas merupakan yang umum dipakai dalam infrastruktur layanan
+web.
 
 ### Penjadwalan
 
+Menurut [wikipedia](https://en.wikipedia.org/wiki/Job_scheduler), penjadwalan
+tugas adalah aplikasi yang bertugas untuk mengendalikan jalannya program yang
+berjalan pada latar belakang. Program-program yang berjalan ini biasanya
+dijalankan secara terjadwal dan tanpa diawasi oleh campur tangan manusia secara
+langsung, kecuali pada saat inisiasi atau pembuatan jadwal.
 
+Untuk lebih jelasnya ada 2 (dua) yang merupakan penjadwal tugas yang digunakan
+berdasarkan bawaan Sistem Operasi.
+
+* [Cron](https://en.wikipedia.org/wiki/Cron) di *nix; dan
+* [Task Scheduler](https://en.wikipedia.org/wiki/Windows_Task_Scheduler) di
+  Windows.
+
+Namun dengan perkembangan sistem terdistribusi banyak perangkat yang
+dikembangkan untuk melakukan penjadwalan ini dalam kelompok-kelompok komputer
+yang dibutuhkan dalam komputasi skala besar. Daftar perangkat bisa dilihat
+[di sini](https://en.wikipedia.org/wiki/List_of_job_scheduler_software).
 
 ### Integrasi Berkelanjutan
 
+Integrasi berkelanjutan atau istilah kerennya _Continuous Integration_, pada
+dasarnya adalah penggabungan semua tugas pengembang dalam satu kesatuan utuh
+yang terotomasi.
+
+Beberapa perangkat yang termasuk dalam CI ini adalah:
+
+* [Jenkins](https://jenkins.io/)
+* [Buildbot](http://buildbot.net/)
+
+Kelebihan penggunaan perangkat ini adalah untuk memonitor adanya kesalahan pada
+pengembangan diberbagai lini sesuai dengan arus kerja pengembangan yang
+digunakan. Hal ini mencakup:
+
+* menjaga gudang kode;
+* otomasi produksi;
+* tes terhadap hasil produksi; dan
+* otomasi pemasangan pada mesin produksi.
+
+Dengan perangkat ini dapat dimonitor setiap langkah pengembangan.
 

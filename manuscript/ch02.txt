@@ -46,6 +46,7 @@ yang bisa kami lakukan dalam pengembangan.
 
 Banyak lisensi yang digunakan oleh pengembang perangkat lunak merdeka, beberapa
 lisensi yang banyak diadopsi adalah :
+
 * [GNU GPL](http://www.gnu.org/licenses/agpl.html),
   [GNU AGPL](http://gnu.org/licenses/gpl.html), dan
   [GNU LGPL](https://www.gnu.org/copyleft/lesser.html) dari
@@ -53,6 +54,7 @@ lisensi yang banyak diadopsi adalah :
 * [Apache License](https://www.apache.org/licenses/) dari
   [__Apache Software Foundation__](https://www.apache.org/);
 * [BSD](https://www.gnu.org/licenses/license-list.html#OriginalBSD).
+
 Ketiganya merupakan lisensi yang biasa dipakai dalam perangkat lunak merdeka.
 Namun dalam pengembangan masih banyak lisensi lain yang bisa digunakan, Debian
 membuat [daftar lisensi](https://www.gnu.org/licenses/license-list.html)
