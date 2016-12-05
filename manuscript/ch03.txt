@@ -38,6 +38,7 @@ dengan R atau dapat memudahkan dalam melakukan eksplorasi data. Pada umumnya
 perangkat yang beredar hanya memiliki fungsi tertentu.
 
 Contoh aplikasi yang digunakan adalah :
+
 * Gephi
   Merupakan perangkat analisis dan visualisasi untuk SNA (Analisis Jejaring
   Sosial / _Social Networks Analysis_).
