@@ -1,0 +1,202 @@
+# Perangkat Lunak dalam Platform Analisis
+
+Dalam penerapan dan perkembangannya perangkat analisis tidak dapat berdiri
+sendiri. Masih ada banyak perangkat pendukung yang menjadi bagian penting dalam
+lancarnya alur analisis. Oleh sebab itu akan di kelompokkkan beberapa jenis
+perangkat lunak berdasarkan kelompok fungsinya. Pada bab ini akan dijelaskan
+secara singkat mengenai setiap perangkat sebagai pengenalan.
+
+## Perangkat Analisis
+
+Bagian pertama dan utama dari perangkat analisis tentu saja perangkat analisis.
+Berikut basis pengembangan yang bisa digunakan untuk membangun platform
+analisis.
+
+### Basis Pengembangan R
+
+[R](https://www.r-project.org/about.html) adalah bahasa pemrograman dan
+lingkungan pengembangan yang ditujukan untuk komputasi statistik dan
+visualisasi data. R adalah bahasa pemrogramanan yang merupakan proyek GNU yang
+mirip dengan bahasa pemrograman S yang dikembangkan oleh Bell Laboratories
+( AT&T / Lucent Technologies ). Dengan kata lain, R adalah implementasi lain
+dari S. Ada bebrapa perbedaan penting, namun sebagian besar kode yang berjalan
+di S dapat berjalan di R tanpa pengubahan apa pun. Salah satu kekuatan R adalah
+kemudahan dalam produksi dokumen publikasi yang terstruktur, termasuk didalamnya
+simbol matematika dan formula yang dibutuhkan.
+
+R tersedia secara bebas dan merdeka dibawah naungan lisensi __GNU General
+Public License__ dari __Free Software Foundation__ dalam distribusi kode
+sumber. R dapat di kompilasi dan berjalan di atas banyak platform sistem
+operasi, yaitu : _Unix-like_ (BSD dan Linux), Windows dan MacOS.
+
+### Perangkat Analisis Lain
+
+Pada dasarnya pengembangan perangkat analisis akan difokuskan kepada bahasa
+pemrograman R untuk memudahkan pengembangan, namun tidak menutup kemungkinan
+adanya perangkat lain yang bisa digunakan yang dapat berinteraksi langusng
+dengan R atau dapat memudahkan dalam melakukan eksplorasi data. Pada umumnya
+perangkat yang beredar hanya memiliki fungsi tertentu.
+
+Contoh aplikasi yang digunakan adalah :
+
+* Gephi
+  Merupakan perangkat analisis dan visualisasi untuk SNA (Analisis Jejaring
+  Sosial / _Social Networks Analysis_).
+* OpenOffice/LibreOffice Calc
+  Merupakan perangkat pengolahan data dan visualisasi _spreadsheet_. Merupakan
+  versi bebas dari Microsoft Excel.
+
+## Basis Data
+
+Selain perangkat analisis diperlukan juga perngkat manajemen basis data sebagai
+media penyimpanan dan pengolahan data. Beberapa akan dibahas :
+
+### Format Teks
+
+Banyak data yang beredar secara bebas menggunakan format berbasis teks,
+misalnya: CSV, _tab delimited text_, XML, JSON, dll. Bahkan bila diperlukan juga
+mampu untuk melakukan _parsing_ halaman web menjadi data.
+
+### MySQL / MariaDB
+
+Produk ini memang bisa saling menggantikan, oleh sebab itu digabungkan menjadi
+1 (satu) bab / pembahasan, mengingat para pengembangnya sebenarnya adalah
+berawal dari satu produk dan perintah maupun mesin yang dipakai pada hakekatnya
+sama.
+
+Untuk digarisbawahi, pembahasan dalam buku ini tidak untuk membanding-bandingkan
+namun lebih tertuju pada penggunaan.
+
+### MongoDB
+
+MongoDB merupakan basis data NoSQL. Dikembangkan sejak 2009 dan merupakan basis
+data berorientasi dokumen.
+
+MongoDB mengembangkan BSON, sebuah mesin basis data berbasis tabel, mirip JSON,
+dengan skema dinamis. Ini membuat integrasi data dari berbagai aplikasi lebih
+mudah dan cepat. 
+
+### Ekosistem Hadoop
+
+Hadoop merupakan kerangka kerja berlisensi merdeka dalam hal media penyimpanan
+terdistribusi dan manajemen pengolahan data terdistribusi. Penggunaannya pada
+proyek disebut bisa mengolah data yang besar dalam kelompok mesin yang perangkat
+kerasnya dijual bebas / komoditas.
+
+Buku ini tidak akan membahas lebih dalam mengenai Hadoop, namun lebih pada
+interoperabilitasnya dalam mendukung platform analisis bisa mengolah data lebih
+cepat.
+
+## Dokumentasi
+
+Perangkat lain yang tidak kalah penting adalah perangkat lunak yang berfungsi
+sebagai media dokumentasi. Baik sebagai referensi, dokumentasi pengembangan
+maupun media publikasi.
+
+Pengetahuan dalam dokumentasi ini lebih diarahkan sebagai kemampuan dalam
+penggunaan sebagai media mencatat dan manajemen proyek.
+
+### MediaWiki
+
+Merupakan perangkat lunak dokumentasi yang dikembangkan sebagai media kolaborasi
+yang membebaskan pengguna memodifikasi isi dan struktur dokumentasi. Wiki
+merupakan basis data dalam jaringan yang dibuat sesederhana mungkin untuk mudah
+dibaca. Penerapannya yang paling populer adalah proyek ensiklopedia 
+[Wikipedia](http://www.wikipedia.org)
+
+### Wordpress
+
+Merupakan perangkat lunak manajemen konten yang yang mendukung adanya arsitektur
+fungsi tambahan dan manajemen pola tampilan. Perangkat ini digunakan oleh lebih
+dari seperempat web dalam jaringan. Banyak digunakan karena mudahnya penerapan
+dan penggunaan.
+
+### Git-Web
+
+Perangkat ini pada dasarnya adalah antar muka berbasis web dari sistem
+pengontrol versi git. Dengan perangkat ini eksplorasi kegiatan berkaitan dengan
+pengembangan dapat dilakukan dengan mudah. Misal, penelusuran folder, catatan
+pengembangan setiap subproyek, pesan _commit_ dan detil perubahan.
+
+Untuk proyek kecil, penggunaan pengontrol versi dan antar muka-nya mungkin belum
+terlihat penting namun coba bayangkan bila Anda harus mengelola proyek sebesar
+kernel linux.
+
+### Trac
+
+Trac merupakan perangkat manajemen proyek dan sistem pelacakan kutu (_bugs_).
+Dikembangkan sejak 2006, banyak fitur yang diterapkan didalamnya termasuk wiki,
+blog, dan buku tamu. Trac juga mampu berkomunikasi langsung dengan sistem
+pengontrol versi semacam git dan subversion.
+
+Dengan penerapan trac, semua fungsi dokumentasi yang sebelumnya dibahas dapat
+diimplementasikan hanya dengan 1 (satu) perangkat.
+
+## Perangkat Lain
+
+Mengenai perangkat yang tercakup dalam sub bab ini pada dasarnya bukan merupakan
+perangkat lunak dasar dalam pengembangan perangkat lunak analisis data. Namun
+dalam pengembangan perangkat lunak analisis data perangkat ini dapat digunakan
+sebagai penunjang dalam penerapan perangkat analisis, sehingga dalam platform
+analisis keberadaannya perlu dipelajari untuk menunjang penerapannya.
+
+### Layanan Web
+
+Menurut [wikipedia](https://id.wikipedia.org/wiki/Server_web), perangkat layanan
+web merupakan perangkat yang menyediakan layanan akses kepada pengguna melalui
+protokol komunikasi HTTP atau HTTPS atas berkas-berkas yang terdapat pada suatu
+situs web dalam layanan ke pengguna dengan menggunakan aplikasi tertentu seperti
+peramban web (_browser_).
+
+Beberapa perangkat lunak yang tercakup dalam perangkat layanan web adalah:
+
+* [Apache](http://httpd.apache.org/);
+* [Nginx](http://www.nginx.org/)
+
+Masih ada beberapa perangkat lunak lain yang masuk dalam jenis perangkat ini.
+Namun dari [laporan w3tech](https://w3techs.com/technologies/cross/web_server/ranking),
+kedua perangkat di atas merupakan yang umum dipakai dalam infrastruktur layanan
+web.
+
+### Penjadwalan
+
+Menurut [wikipedia](https://en.wikipedia.org/wiki/Job_scheduler), penjadwalan
+tugas adalah aplikasi yang bertugas untuk mengendalikan jalannya program yang
+berjalan pada latar belakang. Program-program yang berjalan ini biasanya
+dijalankan secara terjadwal dan tanpa diawasi oleh campur tangan manusia secara
+langsung, kecuali pada saat inisiasi atau pembuatan jadwal.
+
+Untuk lebih jelasnya ada 2 (dua) yang merupakan penjadwal tugas yang digunakan
+berdasarkan bawaan Sistem Operasi.
+
+* [Cron](https://en.wikipedia.org/wiki/Cron) di *nix; dan
+* [Task Scheduler](https://en.wikipedia.org/wiki/Windows_Task_Scheduler) di
+  Windows.
+
+Namun dengan perkembangan sistem terdistribusi banyak perangkat yang
+dikembangkan untuk melakukan penjadwalan ini dalam kelompok-kelompok komputer
+yang dibutuhkan dalam komputasi skala besar. Daftar perangkat bisa dilihat
+[di sini](https://en.wikipedia.org/wiki/List_of_job_scheduler_software).
+
+### Integrasi Berkelanjutan
+
+Integrasi berkelanjutan atau istilah kerennya _Continuous Integration_, pada
+dasarnya adalah penggabungan semua tugas pengembang dalam satu kesatuan utuh
+yang terotomasi.
+
+Beberapa perangkat yang termasuk dalam CI ini adalah:
+
+* [Jenkins](https://jenkins.io/)
+* [Buildbot](http://buildbot.net/)
+
+Kelebihan penggunaan perangkat ini adalah untuk memonitor adanya kesalahan pada
+pengembangan diberbagai lini sesuai dengan arus kerja pengembangan yang
+digunakan. Hal ini mencakup:
+
+* menjaga gudang kode;
+* otomasi produksi;
+* tes terhadap hasil produksi; dan
+* otomasi pemasangan pada mesin produksi.
+
+Dengan perangkat ini dapat dimonitor setiap langkah pengembangan.
+

@@ -1,0 +1,63 @@
+# Platform Analisis
+
+## Pengembangan Platform Analisis
+
+[B2B.Web.ID](http://www.b2b.web.id) merupakan proyek pengembangan laboratorium
+pengolahan dan penyajian data. Data yang digunakan dan diolah adalah data
+terbuka yang bisa diakses oleh semua orang, sehingga bisa dilakukan rekonstruksi
+dan reproduksi informasi dan data yang dihasilkan dengan teknik analisis dan
+visualisasi menggunakan perangkat sejenis.
+
+Mengingat banyaknya perangkat yang beredar, kami mencoba untuk mengidentifikasi
+setiap jenis perangkat, melakukan riset perangkat yang tercakup dan
+mengembangkan perangkat sesuai platform yang menjadi ruang lingkup pengembangan
+yang kami lakukan. Kondisi popularitas perangkat yang dinamis diharapkan tidak
+membuat kami harus berganti platform mengikuti tren yang ada. Sehingga sumber
+daya yang ada pada kami tidak tersita untuk sekedar menjadi pengikut tren.
+
+## Ruang Lingkup Platform yang Dikembangkan
+
+Dalam memulai pengembangan ini kami menetapkan beberapa hal yang bisa menjadi
+syarat perangkat lunak sebagai kandidat platform analisis kami. Beberapa
+diantaranya :
+
+* _Free Software_ atau _Open Source Software_;
+* _Multi-platform_, minimal bisa digunakan di atas sistem operasi GNU/Linux dan
+  Microsoft Windows (yang umum digunakan);
+* kelengkapan dokumentasi;
+* dukungan komunitas;
+
+Selain syarat yang ada di atas yang bisa masuk dalam daftar perangkat ujicoba
+adalah perangkat berlisensi bebas pakai (_freeware_ / _trialware_) yang
+disediakan oleh vendor atau pengembang perangkat lunak. Perangkat uji coba ini
+digunakan sebagai acuan tidak baku arah pengembangan. Acuan bakunya adalah
+fungsi jenis perangkat.
+
+## Perangkat Lunak Merdeka
+
+Dari berbagai kandidat di atas, kami lebih mengarahkan pengembangan pada
+perangkat lunak merdeka atau yang lebih dikenal sebagai _Free Software_.
+Definisi utama yang membedakan perangkat lunak merdeka dengan perangkat lunak
+lain adalah batasan pada lisensi yang mewajibkan pengembang untuk membuka
+seluas-luasnya akses terhadap kode sumber perangkat. Selain itu keterbukaan pada
+kontribusi pengguna dalam bentuk apapun baik itu penambahan fitur, penambalan
+kode, bahkan dokumentasi. Penyusunan buku ini juga merupakan sebuah kontribusi
+yang bisa kami lakukan dalam pengembangan.
+
+Banyak lisensi yang digunakan oleh pengembang perangkat lunak merdeka, beberapa
+lisensi yang banyak diadopsi adalah :
+
+* [GNU GPL](http://www.gnu.org/licenses/agpl.html),
+  [GNU AGPL](http://gnu.org/licenses/gpl.html), dan
+  [GNU LGPL](https://www.gnu.org/copyleft/lesser.html) dari
+  [__Free Software Foundation__](https://www.fsf.org/);
+* [Apache License](https://www.apache.org/licenses/) dari
+  [__Apache Software Foundation__](https://www.apache.org/);
+* [BSD](https://www.gnu.org/licenses/license-list.html#OriginalBSD).
+
+Ketiganya merupakan lisensi yang biasa dipakai dalam perangkat lunak merdeka.
+Namun dalam pengembangan masih banyak lisensi lain yang bisa digunakan, Debian
+membuat [daftar lisensi](https://www.gnu.org/licenses/license-list.html)
+perangkat lunak yang ada di dalam daftar mereka.
+
+
